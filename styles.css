@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #111827;
+  color:#F3F4F6;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+  margin-bottom: -45px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin: 20px;
+}
+.home-score{
+  background-color: black;
+  width: 150px;
+  height: 130px;
+}
+.guest-score{
+  background-color: black;
+  width: 150px;
+  height: 130px;
+}
+h2{
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  font-size: 75px;
+  padding-top: 35px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+button{
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  width: 40px;
+  padding: 7px 5px;
+  background-color: #111827;
+  border: 1px solid #F3F4F6;
+  border-radius: 5px;
+  color: #F3F4F6;
+  cursor: pointer;
+}
+.reset-btn{
+  width: 120px;
+  margin: 50px 10px;
+}
+.end-btn{
+  width: 120px;
+}
+#winner{
+  font-weight: bold;
+}

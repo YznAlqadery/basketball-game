@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball game</title>
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="home-container">
+        <h1>HOME</h1>
+        <div class="home-score">
+          <h2 id="h-score">0</h2>
+        </div>
+        <div class="buttons">
+          <button class="add-one" onclick="homeAddOne()">+1</button>
+          <button class="add-two" onclick="homeAddTwo()">+2</button>
+          <button class="add-three" onclick="homeAddThree()">+3</button>
+        </div>
+      </div>
+      <div class="guest-container">
+        <h1>GUEST</h1>
+        <div class="guest-score">
+          <h2 id="g-score">0</h2>
+        </div>
+        <div class="buttons">
+          <button class="add-one" onclick="guestAddOne()">+1</button>
+          <button class="add-two" onclick="guestAddTwo()">+2</button>
+          <button class="add-three" onclick="guestAddThree()">+3</button>
+        </div>
+      </div>
+    </div>
+    <div class="rst-end-btns">
+      <button class="reset-btn" onclick="resetScore()">RESET SCORE</button>
+      <button class="end-btn" onclick="homeOrGuest()">END GAME</button>
+    </div>
+    <div class="winner">
+      <p id="winner"></p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
